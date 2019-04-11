@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_papers"
+            android:icon="@drawable/papers"
+            android:title="Papers" />
+        <item
+            android:id="@+id/nav_marksheet"
+            android:icon="@drawable/marksheet"
+            android:title="Mark Sheet" />
+        <item
+            android:id="@+id/nav_highscore"
+            android:icon="@drawable/highscore"
+            android:title="High Score" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Log Out" />
+    </group>
+
+    <item android:title="Get In Touch">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share_drawer"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/help_drawer"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/about_us_drawer"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+    <!--<group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_results"
+            android:icon="@drawable/scorecard_drwaer"
+            android:title="Results" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/setting_drawer"
+            android:title="Settings" />
+    </group>
+
+    <item android:title="Get In Touch">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share_drawer"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/help_drawer"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/about_us_drawer"
+                android:title="About Us" />
+        </menu>
+    </item>-->
+
+</menu>

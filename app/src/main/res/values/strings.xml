@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">VAST</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string-array name="gender_dropdown_arrays">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+
+    </string-array>
+
+    <string name="note">VAST is a smart app which is designed with simple and optimized user interfaces to test your knowledge on various subjects. This multiple choice quiz is great for teachers and students who want to brush up on their knowledge.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="email_content">Hey there! Take a look at "VAST" app. You can download it from here,&#160;</string>
+    <string name="link"><u>http://www.vast.lk</u></string>
+</resources>

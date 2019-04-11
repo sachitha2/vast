@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Help">
+
+        <TextView
+            android:id="@+id/txtView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginTop="30dp"
+            android:text="We are here to provide you with more information, answer any questions you may have and create an effective solution for your instructional needs."
+            android:textAlignment="center"
+            android:textSize="21dp" />
+
+        <Button
+            android:id="@+id/btnContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtView"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/custom_button2"
+            android:foreground="?attr/selectableItemBackground"
+            android:padding="10dp"
+            android:text="Contact Us"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnContact"
+            android:layout_margin="20dp"
+            android:background="@drawable/help_bg">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:text="VAST"
+                android:textColor="#8e258a"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView1"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:text="Infini Solutions"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView2"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:text="0715591134 / 0774246925"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView3"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:paddingBottom="10dp"
+                android:text="admin@infinisolutionslk.com"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+    </ScrollView>
