@@ -27,7 +27,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginTop="30dp"
         android:maxLength="15"
-        android:text="Welcome !"
+        android:text="Welcome  TO vast"
         android:textAlignment="center"
         android:textColor="#fff"
         android:textSize="30sp" />
